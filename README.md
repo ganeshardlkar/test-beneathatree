@@ -9,6 +9,7 @@ Create an S3 bucket which is private and accessible only via a cloudfront distri
     * Note: If this signed URL is copy-pasted on a browser, one must be able to view the image file. After 5 minutes, on reload, the same link should stop showing the image and must instead lead to an access-denied page.
 
 ## Prerequisites
+* Clone repo using ```git clone```
 * Run ```npm install```
 * Copy paste your ```private_key.pem``` file into root folder.
 * Create ```.env``` file. Enter the ```PORT``` and ```CLOUDFRONT_ID```
